@@ -1,0 +1,341 @@
+body {
+	font-family: Calibri ,monospace,serif;
+	background-color: rgb(219,215,214,.1);
+	opacity: 0.9;
+	background-image: url(images/background_image.jpg);
+}
+
+h1 {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-weight: bold;	
+	color: #FFE1B7;
+	background-color: #3d3d29;
+	text-align: center;
+	width: 100%;
+}
+
+h2 {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-weight: bold;	
+	color: #FFE1B7;
+	background-color: #5c5c3d;
+	text-align: center;
+	width: 100%;
+}	
+h3 {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-weight: bold;	
+	font-size: 100%;
+	color: #FFE1B7; /*changed for set meals*/
+	background-color: rgba(61,61,41,.8);
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+}
+	
+caption {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-weight: bold;	
+	color: #00e600;
+	background-color: #3d3d29;
+}
+	
+nav {
+	text-align:center;
+}
+
+iframe {
+	height: 300px;
+	width: 100%;
+}
+	
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+li {
+	display: inline;
+}
+	
+table, th, td {
+    border: 5px solid grey;
+    border-collapse: collapse;
+    width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	table-layout: fixed;
+	text-align: center;
+}
+	
+fieldset {
+	border: 2px solid grey;
+}
+
+header {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
+	background-color: #3d3d29;
+	color: rgb(255,255,255);
+	text-align: right;
+}
+	
+#banner {
+	width: 100%;
+}
+	
+#formcenter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 900px;
+	background-color:	#cfcfdf;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#content1 {
+	width: 45%;
+	margin: 0 10px;
+}
+
+#content2 {
+	width: 45%;
+	margin: 0 10px;
+}
+.trackinfo {
+	text-align: left;
+	padding-left: 10px;
+}
+	
+.entry {
+	font-size: 120%;
+	text-align: center;	
+}
+
+.vidgallery { 
+	border-style: solid; 
+	border-width: 0px; 
+	border-color: #adad85;
+	width: 100%;
+	height: 100% ;
+	width: 50%;
+	margin: 0 auto;
+}
+	
+.space {
+	margin-bottom: 2%;
+}
+
+.button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.intro:first-letter {
+	font-size: 150%;
+}
+	
+/* CSS for styling of input form boxes*/	
+input:hover {
+	color: #00e600;
+	background-color: #3d3d29;
+}
+	
+input:active {
+	color: #00e600;
+	background-color: #3d3d29;
+}
+	
+input:focus {
+	color: #00e600;
+	background-color: #3d3d29;
+}
+	
+.formloc:active {
+	color: #00e600;
+	background-color: #3d3d29;
+}
+	
+.formloc:hover {
+	color: #00e600;
+	background-color: #3d3d29;
+}
+	
+.formloc:focus {
+	color: #00e600;
+	background-color: #3d3d29;
+}
+/*end */	
+/*Styling to span 3 images evenly across the webpage*/
+.leftsection {
+	width: 77%;
+	margin: 0px auto;
+}
+	
+.middlesection {
+	width: 77%;
+	margin: 0px auto;
+}
+
+
+.rightsection {
+	width: 20%;
+	margin: 0px auto;
+	border: 4px solid  rgba(61,61,41,.8);
+	border-radius: 2px;
+	background-color: #ffe1b7;
+	margin-bottom: 5px;
+}
+/*end */
+/*allignment of gifs and sizing */
+img.rightgif {
+	border-radius: 10px;
+	border-style: solid;
+	height: 200px;
+	width: 45%;
+	float: right;
+}
+ 
+img.leftgif {
+	border-radius: 10px;
+	border-style: solid;
+	height: 200px;
+	width: 45%;
+	float: left;
+}
+ /*end */
+a.links:link {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+a.links:hover {
+	font-size: 1.5em;
+	color: #00e600;
+	background-color: #3d3d29;
+	border-radius: 5px;
+}
+
+a.links:visited {
+	text-decoration: none;
+	color: #009900;
+}
+	
+	/*CSS for Gallery*/
+.gallerythumb {
+	width: 150px;
+	height: 100px;
+}
+
+.enlarge {
+	text-align: center;
+}
+
+ul.enlarge {
+	list-style-type: none; /*remove the bullet point*/
+	margin-left: 0;
+}
+
+ul.enlarge li {
+	display: inline-block; /*places the images in a line*/
+	position: relative;
+	z-index: 0; /*resets the stack order of the list items */
+	margin: 10px 40px 0 20px;
+	background-color:	#cfcfdf;
+	border-radius: 20px;
+}
+
+ul.enlarge img {
+	background-color: #eae9d4;
+	padding: 6px;
+	border-radius: 20px;
+}
+
+ul.enlarge span {
+	position: absolute;
+	left: -9999px;
+	background-color: #eae9d4;
+	padding: 10px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: .9em;
+	text-align: center; 
+	color: #495a62; 
+	border-radius: 8px;
+}
+
+ul.enlarge li:hover {
+	z-index: 50;
+	cursor: pointer;
+}
+
+ul.enlarge span img {
+	padding: 2px;
+	background: #ccc;
+}
+
+ul.enlarge li:hover span { 
+	top: -300px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+	left: -20px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+		/*end of gallery CSS*/
+
+		
+		/*CSS for Nav Bar*/
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d3d29;
+}
+
+.navi ul li{
+    float: left;
+}
+
+.navi ul li a {
+    display: block;
+    color: #FFE1B7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navi a:hover:not(.active) {
+	color: #3d3d29;
+	background-color: #FFE1B7;
+}
+
+.active{
+	color: #3d3d29;
+	background-color: #00e600;
+}
+/*my CSS - also changed h3*/
+#history2{
+	border: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #5c5c3d;
+	margin: 10px;
+}
+#history1{
+	border: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #5c5c3d;
+	margin: 10px;
